@@ -68,3 +68,11 @@ abline(chestmodel)
 summary.lm(chestmodel)
 ```
 
+## Model LENGTH ~ WEIGHT  this is an example  
+
+```{r}
+weightmodel <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(weightmodel)
+summary.lm(weightmodel)
+```
