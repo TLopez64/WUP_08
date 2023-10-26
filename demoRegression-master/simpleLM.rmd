@@ -41,3 +41,30 @@ abline(AGEmodel)
 summary.lm(AGEmodel)
 ```
 
+## Model LENGTH ~ HEADLEN  this is an example  
+
+```{r}
+headlenght <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(headlenght)
+summary.lm(headlenght)
+```
+
+## Model LENGTH ~ HEADWTH  this is an example  
+
+```{r}
+headwidth <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(headwidth)
+summary.lm(headwidth)
+```
+
+## Model LENGTH ~ CHEST  this is an example  
+
+```{r}
+chestmodel <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(chestmodel)
+summary.lm(AGEmodel)
+```
+
