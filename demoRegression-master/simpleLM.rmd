@@ -65,6 +65,6 @@ summary.lm(headwidth)
 chestmodel <- lm(LENGTH~CHEST,data=bears)
 plot(LENGTH~CHEST,data=bears)
 abline(chestmodel)
-summary.lm(AGEmodel)
+summary.lm(chestmodel)
 ```
 
