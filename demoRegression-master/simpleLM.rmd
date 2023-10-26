@@ -76,3 +76,7 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(weightmodel)
 summary.lm(weightmodel)
 ```
+
+## Conclusion
+
+Among all the model with the largest r square was 0.8434, and the best one was head length.
